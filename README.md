@@ -1,4 +1,4 @@
-###Python Mexico
+### Python Mexico
 
 Exploratory Django wrapper around docker-py for:
 - Creating Docker image with Jupyter notebook
@@ -6,7 +6,7 @@ Exploratory Django wrapper around docker-py for:
 
 For more information on how to setup a Dockerfile for a Jupyter notebook with a mountable data volume read [here](https://github.com/lorenanicole/jupyter_docker).
 
-####Install the app
+#### Install the app
 
 ```
 virtualenv -p python3 venv
