@@ -12,6 +12,7 @@ For more information on how to setup a Dockerfile for a Jupyter notebook with a 
 virtualenv -p python3 venv
 source venv/bin/activate
 (venv) pip3 install -r requirements
+(venv) python3 manage.py runserver
 ```
 
 To create an image call `http://localhost:8000/api/model/create/imagename`, updating the `model.views` `create_image` endpoint with a URL for instance of Docker.
